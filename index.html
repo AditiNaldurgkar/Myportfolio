@@ -6,10 +6,10 @@
     <title>Aditi Naldurgkar - Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class="bg-[#000000] text-white">
 
     <nav class="flex items-stretch bg-sky-500 text-white h-[40px] font-semibold">
-        <a class="mx-[10px] mt-[5px] "  href="#about">About</a>
+        <a class="mx-[10px] mt-[5px]"  href="#about">About</a>
         <a  class="mx-[10px] mt-[5px]" href="#education">Education</a>
         <a  class="mx-[10px] mt-[5px]"href="#skills">Skills</a>
         <a  class="mx-[10px] mt-[5px]"href="#projects">Projects</a>
@@ -18,21 +18,50 @@
         <a  class="mx-[10px] mt-[5px]" href="#certifications">Certifications</a>
         <a  class="mx-[10px] mt-[5px] " href="#contact">Contact</a>
     </nav>
-    <section id="about" class="container bg-">
-        <h2 class="bg-">About Me</h2>
-        <p>To secure a position in a company where I can implement and enhance my skills and knowledge while contributing to the growth and success of the company.</p>
+    <section id="about">
+        <h2 class="font-bold h-[40px items-center] ml-[48%] text-3xl my-[10px] text-[#22D3EE]">About Me</h2>
+        <span class="font-bold mx-[10px] my-[10px]">Objective : </span>
+        <span>To secure a position in a company where I can implement and enhance my skills
+             and knowledge while contributing to the growth and success of the company.</span>
     </section>
-    <section id="education" class="container">
-        <h2>Education</h2>
-        <ul>
-            <li><strong>B.Tech (CSD)</strong> - RTMNU (Pursuing, 2026)</li>
-            <li><strong>HSC</strong> - CBSE (2022) - 86.4%</li>
-            <li><strong>SSC</strong> - CBSE (2020) - 94.4%</li>
-        </ul>
+    <section id="education" class="container mx-auto my-10">
+        <h2 class="font-bold text-3xl text-center my-5">Education</h2>
+        <div class="overflow-x-auto">
+            <table class="min-w-full border-collapse border border-gray-300">
+                <thead>
+                    <tr class="bg-[#0F172A]">
+                        <th class="border border-white border-[2px]px-4 py-2">Degree</th>
+                        <th class="border border-white border-[2px]  px-4 py-2">Institute</th>
+                        <th class="border border-white border-[2px]px-4 py-2">Year</th>
+                        <th class="border border-white border-[2px] px-4 py-2">Percentage</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="text-center">
+                        <td class="border border-gray-400 px-4 py-2">B.Tech (CSD)</td>
+                        <td class="border border-gray-400 px-4 py-2">RTMNU</td>
+                        <td class="border border-gray-400 px-4 py-2">2026</td>
+                        <td class="border border-gray-400 px-4 py-2">Pursuing</td>
+                    </tr>
+                    <tr class="text-center bg-gray-100">
+                        <td class="border border-gray-400 px-4 py-2">HSC</td>
+                        <td class="border border-gray-400 px-4 py-2">CBSE</td>
+                        <td class="border border-gray-400 px-4 py-2">2022</td>
+                        <td class="border border-gray-400 px-4 py-2">86.4%</td>
+                    </tr>
+                    <tr class="text-center">
+                        <td class="border border-gray-400 px-4 py-2">SSC</td>
+                        <td class="border border-gray-400 px-4 py-2">CBSE</td>
+                        <td class="border border-gray-400 px-4 py-2">2020</td>
+                        <td class="border border-gray-400 px-4 py-2">94.4%</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </section>
-
+    
     <section id="skills" class="container">
-        <h2>Skills</h2>
+        <h2 class="font-bold h-[40px items-center] ml-[48%] text-3xl my-[10px]">Skills</h2>
         <ul>
             <li><strong>Frontend Development:</strong> HTML, CSS, React, JavaScript</li>
             <li><strong>Languages:</strong> C</li>
@@ -40,8 +69,8 @@
         </ul>
     </section>
 
-    <section id="projects" class="container flex items-center">
-        <h2>Projects</h2>
+    <section id="projects">
+        <h2  class="font-bold h-[40px items-center] ml-[48%] text-3xl my-[10px]" >Projects</h2>
         <ul>
             <li><strong>Wonders of the World</strong> - A website about the seven wonders, including a quiz.
                 <br><a href="https://github.com/AditiNaldurgkar/ICP-8.0-Grp2-Project3-Wonder-World" target="_blank">GitHub Link</a></li>
@@ -53,14 +82,14 @@
     </section>
 
     <section id="achievements" class="container">
-        <h2>Achievements</h2>
+        <h2  class="font-bold h-[40px items-center] ml-[48%] text-3xl my-[10px]">Achievements</h2>
         <ul>
             <li>Awarded a CBSE Certificate of Merit for achieving a perfect score of 100 in Mathematics.</li>
         </ul>
     </section>
 
     <section id="extracurricular" class="container">
-        <h2>Extracurricular Activities</h2>
+        <h2  class="font-bold h-[40px items-center] ml-[48%] text-3xl my-[10px]">Extracurricular Activities</h2>
         <ul>
             <li>Attended ISRO’s online summer school program.</li>
             <li>Secured second position in the web design jam of the department’s annual event.</li>
@@ -69,7 +98,7 @@
     </section>
 
     <section id="certifications" class="container">
-        <h2>Certifications</h2>
+        <h2 class="font-bold h-[40px items-center] ml-[48%] text-3xl my-[10px]">Certifications</h2>
         <ul>
             <li>Cambridge English Empower Level C1 course certificate.</li>
             <li>IBM’s "Getting Started with AI" course.</li>
@@ -77,7 +106,7 @@
     </section>
 
     <section id="contact" class="container">
-        <h2>Contact</h2>
+        <h2  class="font-bold h-[40px items-center] ml-[48%] text-3xl my-[10px]">Contact</h2>
         <p><strong>Email:</strong> <a href="mailto:aditianaldurgkar@gmail.com">aditianaldurgkar@gmail.com</a></p>
         <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/aditi-naldurgkar" target="_blank">Aditi Naldurgkar</a></p>
         <p><strong>GitHub:</strong> <a href="https://github.com/AditiNaldurgkar" target="_blank">AditiNaldurgkar</a></p>
