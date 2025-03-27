@@ -8,7 +8,7 @@
 </head>
 <body class="bg-[#000000] text-white">
 
-    <nav class="flex items-stretch bg-sky-500 text-white h-[40px] font-semibold">
+    <nav class="flex items-stretch bg-sky-500 text-white h-[40px] font-semibold flex-row justify-evenly ">
         <a class="mx-[10px] mt-[5px]"  href="#about">About</a>
         <a  class="mx-[10px] mt-[5px]" href="#education">Education</a>
         <a  class="mx-[10px] mt-[5px]"href="#skills">Skills</a>
@@ -18,8 +18,43 @@
         <a  class="mx-[10px] mt-[5px]" href="#certifications">Certifications</a>
         <a  class="mx-[10px] mt-[5px] " href="#contact">Contact</a>
     </nav>
+    <h1 id="typing-name" class="text-4xl font-bold text-center mt-10"></h1>
+    <h1 id="typing-name" class="text-4xl font-bold text-center mt-10"></h1>
+
+    <script>
+        const nameText = "Aditi Naldurgkar";
+        let i = 0;
+        let isDeleting = false;
+
+        function typeEffect() {
+            let displayText = document.getElementById("typing-name");
+
+            if (!isDeleting) {
+                displayText.innerHTML = nameText.substring(0, i);
+                i++;
+                if (i > nameText.length) {
+                    isDeleting = true;
+                    setTimeout(typeEffect, 1000);
+                    return;
+                }
+            } else {
+                displayText.innerHTML = nameText.substring(0, i);
+                i--;
+                if (i < 0) {
+                    isDeleting = false;
+                }
+            }
+
+            setTimeout(typeEffect, isDeleting ? 100 : 150);
+        }
+
+        typeEffect();
+    </script>
+    
+
     <section id="about">
-        <h2 class="font-bold h-[40px items-center] ml-[48%] text-3xl my-[10px] text-[#22D3EE]">About Me</h2>
+        <div></div>
+        <h2 class="font-bold h-[40px items-center] mx-auto text-3xl my-[10px] text-center">About Me</h2><img src="C:\Users\aditi\Downloads\person.png" class="bg-white h-[20px]">
         <span class="font-bold mx-[10px] my-[10px]">Objective : </span>
         <span>To secure a position in a company where I can implement and enhance my skills
              and knowledge while contributing to the growth and success of the company.</span>
@@ -61,7 +96,7 @@
     </section>
     
     <section id="skills" class="container">
-        <h2 class="font-bold h-[40px items-center] ml-[48%] text-3xl my-[10px]">Skills</h2>
+        <h2 class="font-bold h-[40px items-center]  text-3xl my-[10px] text-center">Skills</h2>
         <ul>
             <li><strong>Frontend Development:</strong> HTML, CSS, React, JavaScript</li>
             <li><strong>Languages:</strong> C</li>
@@ -70,7 +105,7 @@
     </section>
 
     <section id="projects">
-        <h2  class="font-bold h-[40px items-center] ml-[48%] text-3xl my-[10px]" >Projects</h2>
+        <h2  class="font-bold h-[40px items-center] text-center text-3xl my-[10px]" >Projects</h2>
         <ul>
             <li><strong>Wonders of the World</strong> - A website about the seven wonders, including a quiz.
                 <br><a href="https://github.com/AditiNaldurgkar/ICP-8.0-Grp2-Project3-Wonder-World" target="_blank">GitHub Link</a></li>
@@ -82,14 +117,14 @@
     </section>
 
     <section id="achievements" class="container">
-        <h2  class="font-bold h-[40px items-center] ml-[48%] text-3xl my-[10px]">Achievements</h2>
+        <h2  class="font-bold h-[40px items-center] text-center text-3xl my-[10px]">Achievements</h2>
         <ul>
             <li>Awarded a CBSE Certificate of Merit for achieving a perfect score of 100 in Mathematics.</li>
         </ul>
     </section>
 
     <section id="extracurricular" class="container">
-        <h2  class="font-bold h-[40px items-center] ml-[48%] text-3xl my-[10px]">Extracurricular Activities</h2>
+        <h2  class="font-bold h-[40px items-center] text-center text-3xl my-[10px]">Extracurricular Activities</h2>
         <ul>
             <li>Attended ISRO’s online summer school program.</li>
             <li>Secured second position in the web design jam of the department’s annual event.</li>
@@ -98,7 +133,7 @@
     </section>
 
     <section id="certifications" class="container">
-        <h2 class="font-bold h-[40px items-center] ml-[48%] text-3xl my-[10px]">Certifications</h2>
+        <h2 class="font-bold h-[40px items-center] text-center text-3xl my-[10px]">Certifications</h2>
         <ul>
             <li>Cambridge English Empower Level C1 course certificate.</li>
             <li>IBM’s "Getting Started with AI" course.</li>
@@ -106,7 +141,7 @@
     </section>
 
     <section id="contact" class="container">
-        <h2  class="font-bold h-[40px items-center] ml-[48%] text-3xl my-[10px]">Contact</h2>
+        <h2  class="font-bold h-[40px items-center] text-center text-3xl my-[10px]">Contact</h2>
         <p><strong>Email:</strong> <a href="mailto:aditianaldurgkar@gmail.com">aditianaldurgkar@gmail.com</a></p>
         <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/aditi-naldurgkar" target="_blank">Aditi Naldurgkar</a></p>
         <p><strong>GitHub:</strong> <a href="https://github.com/AditiNaldurgkar" target="_blank">AditiNaldurgkar</a></p>
