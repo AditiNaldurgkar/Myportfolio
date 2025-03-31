@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aditi Naldurgkar - Portfolio</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body class="bg-[#000000] text-white">
 
@@ -103,38 +103,65 @@
         </div>
     </section>
     
-    <section id="skills" class="container">
-        <h2 class="font-bold h-[40px items-center]  text-3xl my-[10px] text-center">Skills</h2>
+    <section id="skills"  class="mb-[10px]">
+        <span class="font-bold text-3xl text-center block ">Skills</span>
         <ul>
-            <li><strong>Frontend Development:</strong> HTML, CSS, React, JavaScript</li>
-            <li><strong>Languages:</strong> C</li>
-            <li><strong>Version Control:</strong> Git & GitHub</li>
+            <li class="pl-[50px]"><strong>1.Frontend Development:</strong> HTML, CSS, React, JavaScript</li>
+            <li class="pl-[50px]"><strong>2.Languages:</strong> C</li>
+            <li class="pl-[50px]"><strong>3.Version Control:</strong> Git & GitHub</li>
         </ul>
     </section>
-
-    <section id="projects">
-        <h2  class="font-bold h-[40px items-center] text-center text-3xl my-[10px]" >Projects</h2>
-        <ul>
-            <li><strong>Wonders of the World</strong> -This website revolves around the seven wonders of the world. 
-                This was a group project aimed to enrich all the visitors with valuable information about all the wonders.
-                 At the end of every page, the user can evaluate his or her knowledge by attempting an interesting quiz.
-                  I was given the responsibility of developing a page dedicated to the wonder of Mexico, Chichen Itza. I implemented some of the core
-                 and basic concepts of JavaScript along with HTML and CSS to create this webpage.
-                  My work and contribution to this project can be reviewed at:
-                <br><a href="https://github.com/AditiNaldurgkar/ICP-8.0-Grp2-Project3-Wonder-World" target="_blank">GitHub Link</a></li>
-            <li><strong>Career Connect</strong> - This is a website especially made for job seekers and recruiters. 
-                It helps people in search of jobs find their dream jobs. My task here was to develop a page titled as "Tech and Talent" which could enrich the users with valuable insights from the corporate world. This page includes information about the latest innovations,
-                 developments, and trends in today’s ever-growing technological and corporate sectors. 
-                 I have used HTML, CSS, and React to build this page.
-                <br><a href="https://github.com/AditiNaldurgkar/icp8.0-reactjs-group-project-4/tree/master" target="_blank">GitHub Link</a></li>
-            <li><strong>Hometown</strong> - This is a website made from scratch using HTML, CSS, JavaScript, and React. 
-                This is an e-commerce website but is focused on home décor items. Throughout
-                 the process of developing this, I learned how to maintain a proper folder 
-                 structure and make a website completely and easily configurable.
-                <br><a href="https://github.com/AditiNaldurgkar/configurableui" target="_blank">GitHub Link</a></li>
-        </ul>
-    </section>
-
+    <div class="overflow-hidden bg-white py-10 sm:py-32 block mx-auto w-[90%]  rounded-[10px] px-[10px]">
+        <div class="mx-auto max-w-7xl px-6 lg:px-8">
+          <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+            <div class="lg:pt-4 lg:pr-8">
+              <div class="lg:max-w-lg">
+                <p class=" text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl">Projects</p>
+                <dl class="mt-10 max-w-xl space-y-8 text-base/7 text-gray-600 lg:max-w-none">
+                  <div class="relative pl-9">
+                    
+                    <dt class="inline font-semibold text-gray-900">
+                        <img src="https://cdn-icons-png.flaticon.com/128/4283/4283062.png" class="h-[20px] inline mr-[5px]">
+                      Wonders of the World:
+                    </dt>
+                    <dd class="inline">This website revolves around the seven wonders of the world. 
+                        This was a group project aimed to enrich all the visitors with valuable information about all the wonders.
+                         At the end of every page, the user can evaluate his or her knowledge by attempting an interesting quiz.
+                          I was given the responsibility of developing a page dedicated to the wonder of Mexico, Chichen Itza. I implemented some of the core
+                         and basic concepts of JavaScript along with HTML and CSS to create this webpage.
+                          My work and contribution to this project can be reviewed at:
+                        <br><a href="https://github.com/AditiNaldurgkar/ICP-8.0-Grp2-Project3-Wonder-World" target="_blank">GitHub Link</a></li></dd>
+                  </div>
+                  <div class="relative pl-9">
+                    <dt class="inline font-semibold text-gray-900">
+                        <img src="https://cdn-icons-png.flaticon.com/128/9612/9612167.png" class="h-[20px] inline mr-[5px]">
+                        Career Connect : 
+                    </dt>
+                    <dd class="inline"> This is a website especially made for job seekers and recruiters. 
+                        It helps people in search of jobs find their dream jobs. My task here was to develop a page titled as "Tech and Talent" which could enrich the users with valuable insights from the corporate world. This page includes information about the latest innovations,
+                         developments, and trends in today’s ever-growing technological and corporate sectors. 
+                         I have used HTML, CSS, and React to build this page.
+                        <br><a href="https://github.com/AditiNaldurgkar/icp8.0-reactjs-group-project-4/tree/master" target="_blank">GitHub Link</a></li></dd>
+                  </div>
+                  <div class="relative pl-9">
+                    <dt class="inline font-semibold text-gray-900">
+                        <img src="https://cdn-icons-png.flaticon.com/128/2603/2603741.png" class="h-[20px] inline mr-[5px]">
+                        Hometown : 
+                    </dt>
+                    <dd class="inline">This is a website made from scratch using HTML, CSS, JavaScript, and React. 
+                        This is an e-commerce website but is focused on home décor items. Throughout
+                         the process of developing this, I learned how to maintain a proper folder 
+                         structure and make a website completely and easily configurable.
+                        <br><a href="https://github.com/AditiNaldurgkar/configurableui" target="_blank">GitHub Link</a></li></dd>
+                  </div>
+                </dl>
+              </div>
+            </div>
+            <img src="https://tailwindcss.com/plus-assets/img/component-images/dark-project-app-screenshot.png" alt="Product screenshot" class="w-[48rem] max-w-none rounded-xl ring-1 shadow-xl ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0" width="2432" height="1442">
+          </div>
+        </div>
+      </div>
+      
     <section id="achievements" class="container">
         <h2  class="font-bold h-[40px items-center] text-center text-3xl my-[10px]">Achievements</h2>
         <ul>
