@@ -66,14 +66,14 @@ const Portfolio = () => {
           learning and problem-solving drives me to explore innovative solutions in the tech industry.
           </p>
           <span className="font-bold my-[25px] text-2xl ">Objective: </span>
-          <span>
+          <span className="text-lg">
             To secure a position in a company where I can implement and enhance my skills and knowledge while
             contributing to the growth and success of the company.
           </span>
         </div>   
       </div>
 
-      <section id="education" className="container mx-auto my-10 sm:px-10">
+      <section id="education" className="container mx-auto my-10 text-lg sm:px-10">
         <h2 className="font-bold text-3xl sm:text-3xl text-center my-5">Education</h2>
         <div className="overflow-x-auto">
           <table className="min-w-full border-collapse  sm:text-sm border border-gray-300">
