@@ -59,7 +59,7 @@ const Portfolio = () => {
       <div className="flex flex-row items-center justify-center p-[20px] mt-[20px] md:flex-row items-center justify-center">
         <img src={me} className="h-[200px] border-white rounded-[5px] border-black border-[4px] mx-[50px]" alt="Aditi" />
         <div>
-          <p>
+          <p className="text-lg">
           I am Aditi Naldurgkar, a B.Tech student at YCCE, Nagpur, specializing in Computer Science and Design.
          I have a strong foundation in Full Stack Development, Java, and Git/GitHub. As a dedicated and hardworking individual, 
          I am always eager to learn new technologies and apply them to real-world projects. My passion for continuous
