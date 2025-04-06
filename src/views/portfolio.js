@@ -80,7 +80,7 @@ const Portfolio = () => {
             <thead className="text-lg">
               <tr className="bg-[#0F172A] text-lg">
                 {['Degree', 'Institute', 'Year', 'Percentage'].map((heading) => (
-                  <th key={heading} className="border-white border-[2px] px-4 py-2">
+                  <th key={heading} className="border-white  text-lg border-[2px] px-4 py-2">
                     {heading}
                   </th>
                 ))}
@@ -95,10 +95,10 @@ const Portfolio = () => {
                 degree: 'SSC', institute: 'CBSE', year: '2020', percentage: '94.4%', bg: 'bg-[#22D3EE] text-black'
               }].map((row, index) => (
                 <tr key={index} className={`text-center ${row.bg}`}>
-                  <td className="border-white border-[2px] px-4 py-2">{row.degree}</td>
-                  <td className="border-white border-[2px] px-4 py-2">{row.institute}</td>
-                  <td className="border-white border-[2px] px-4 py-2">{row.year}</td>
-                  <td className="border-white border-[2px] px-4 py-2">{row.percentage}</td>
+                  <td className="border-white border-[2px]  text-lg px-4 py-2">{row.degree}</td>
+                  <td className="border-white border-[2px] text-lg px-4 py-2">{row.institute}</td>
+                  <td className="border-white border-[2px] text-lg px-4 py-2">{row.year}</td>
+                  <td className="border-white border-[2px] text-lg px-4 py-2">{row.percentage}</td>
                 </tr>
               ))}
             </tbody>
