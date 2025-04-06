@@ -76,7 +76,7 @@ const Portfolio = () => {
       <section id="education" className="container mx-auto my-10 text-lg sm:px-10">
         <h2 className="font-bold text-3xl sm:text-3xl text-center my-5">Education</h2>
         <div className="overflow-x-auto">
-          <table className="min-w-full border-collapse  sm:text-sm border border-gray-300">
+          <table className="min-w-full border-collapse text-lg sm:text-sm border border-gray-300">
             <thead>
               <tr className="bg-[#0F172A]">
                 {['Degree', 'Institute', 'Year', 'Percentage'].map((heading) => (
@@ -109,9 +109,9 @@ const Portfolio = () => {
       <section id="skills" className="mb-[10px] sm:px-[50px]">
         <span className="font-bold text-3xl text-center block  sm:text">Skills</span>
         <ul>
-          <li className="pl-[50px]"><strong>1. Frontend Development:</strong> HTML, CSS, React, JavaScript</li>
-          <li className="pl-[50px]"><strong>2. Languages:</strong> C</li>
-          <li className="pl-[50px]"><strong>3. Version Control:</strong> Git & GitHub</li>
+          <li className="pl-[50px] text-lg"><strong>1. Frontend Development:</strong> HTML, CSS, React, JavaScript</li>
+          <li className="pl-[50px] text-lg"><strong>2. Languages:</strong> C</li>
+          <li className="pl-[50px] text-lg"><strong>3. Version Control:</strong> Git & GitHub</li>
         </ul>
       </section>
       

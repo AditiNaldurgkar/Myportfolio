@@ -21,7 +21,12 @@ const Projects = () => {
                   Wonders of the World :
                 </dt>
                 <dd className="inline">
-                  A group project exploring the 7 wonders with an interactive quiz. I developed the Chichen Itza page using HTML, CSS, and JS.
+                This website revolves around the seven wonders of the world. 
+                        This was a group project aimed to enrich all the visitors with valuable information about all the wonders.
+                         At the end of every page, the user can evaluate his or her knowledge by attempting an interesting quiz.
+                          I was given the responsibility of developing a page dedicated to the wonder of Mexico, Chichen Itza. I implemented some of the core
+                         and basic concepts of JavaScript along with HTML and CSS to create this webpage.
+                          My work and contribution to this project can be reviewed at:
                   <br />
                   <a
                     href="https://github.com/AditiNaldurgkar/ICP-8.0-Grp2-Project3-Wonder-World"
@@ -43,7 +48,10 @@ const Projects = () => {
                   Career Connect :
                 </dt>
                 <dd className="inline">
-                  A job portal site. I built the "Tech and Talent" section using React, HTML, and CSS.
+                This is a website especially made for job seekers and recruiters. 
+                        It helps people in search of jobs find their dream jobs. My task here was to develop a page titled as "Tech and Talent" which could enrich the users with valuable insights from the corporate world. This page includes information about the latest innovations,
+                         developments, and trends in today’s ever-growing technological and corporate sectors. 
+                         I have used HTML, CSS, and React to build this page.
                   <br />
                   <a
                     href="https://github.com/AditiNaldurgkar/icp8.0-reactjs-group-project-4/tree/master"
@@ -67,7 +75,10 @@ const Projects = () => {
                   Hometown :
                 </dt>
                 <dd className="inline">
-                  An e-commerce site for home décor built using React. Focused on clean folder structure and configurable UI.
+                This is a website made from scratch using HTML, CSS, JavaScript, and React. 
+                        This is an e-commerce website but is focused on home décor items. Throughout
+                         the process of developing this, I learned how to maintain a proper folder 
+                         structure and make a website completely and easily configurable.
                   <br />
                   <a
                     href="https://github.com/AditiNaldurgkar/configurableui"
