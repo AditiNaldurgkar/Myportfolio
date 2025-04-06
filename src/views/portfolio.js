@@ -75,10 +75,10 @@ const Portfolio = () => {
 
       <section id="education" className="container mx-auto my-10 text-lg sm:px-10">
         <h2 className="font-bold text-3xl sm:text-3xl text-center my-5">Education</h2>
-        <div className="overflow-x-auto">
+        <div className="overflow-x-auto text-lg">
           <table className="min-w-full border-collapse text-lg sm:text-sm border border-gray-300">
-            <thead>
-              <tr className="bg-[#0F172A]">
+            <thead className="text-lg">
+              <tr className="bg-[#0F172A] text-lg">
                 {['Degree', 'Institute', 'Year', 'Percentage'].map((heading) => (
                   <th key={heading} className="border-white border-[2px] px-4 py-2">
                     {heading}
@@ -86,7 +86,7 @@ const Portfolio = () => {
                 ))}
               </tr>
             </thead>
-            <tbody>
+            <tbody className="text-lg">
               {[{
                 degree: 'B.Tech (CSD)', institute: 'RTMNU', year: '2026', percentage: 'Pursuing', bg: 'bg-[#22D3EE] text-black'
               }, {
