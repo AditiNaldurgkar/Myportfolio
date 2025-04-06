@@ -6,15 +6,11 @@ const Projects = () => {
     <div className="overflow-hidden bg-[#0F172A] text-white py-8 px-4 sm:px-6 lg:px-8 rounded-[10px] w-[90%] mx-auto my-[30px]">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-y-16 lg:gap-x-8 items-center">
-          
-          {/* Text Section */}
           <div>
             <p className="text-3xl sm:text-4xl lg:text-5xl font-semibold tracking-tight text-white text-center sm:text-left mb-6">
               Projects
             </p>
             <dl className="space-y-10 text-base leading-7 text-white">
-              
-              {/* Project 1 */}
               <div className="relative pl-9">
                 <dt className="inline font-semibold text-[#22D3EE]">
                   <img
@@ -37,8 +33,6 @@ const Projects = () => {
                   </a>
                 </dd>
               </div>
-
-              {/* Project 2 */}
               <div className="relative pl-9">
                 <dt className="inline font-semibold text-[#22D3EE]">
                   <img
@@ -62,7 +56,7 @@ const Projects = () => {
                 </dd>
               </div>
 
-              {/* Project 3 */}
+              
               <div className="relative pl-9">
                 <dt className="inline font-semibold text-[#22D3EE]">
                   <img

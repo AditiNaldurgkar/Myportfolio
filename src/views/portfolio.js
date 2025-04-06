@@ -70,7 +70,7 @@ const Portfolio = () => {
             To secure a position in a company where I can implement and enhance my skills and knowledge while
             contributing to the growth and success of the company.
           </span>
-        </div>    <span className="font-bold my-[15px] text-lg md:text-2xl block">Objective:</span>
+        </div>   
       </div>
 
       <section id="education" className="container mx-auto my-10 sm:px-10">
@@ -117,7 +117,7 @@ const Portfolio = () => {
       
               <Projects/>
               <section id="achievements" class="container">
-        <span class="font-bold text-3xl text-center block my-5 mx-auto">Achievements
+        <span class="font-bold text-3xl text-center w-[100%] my-5 mx-[50%]">Achievements
         </span>
         <ul class="px-[50px] mb-[20px]">
             <li>1. Awarded a CBSE Certificate of Merit for achieving a perfect score of 100 in Mathematics.</li>
